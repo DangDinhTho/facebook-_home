@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_facebook_responsive_ui/data/data.dart';
+import 'package:flutter_facebook_responsive_ui/screens/menu_screen.dart';
 import 'package:flutter_facebook_responsive_ui/screens/notification_screen.dart';
 import 'package:flutter_facebook_responsive_ui/screens/screens.dart';
 import 'package:flutter_facebook_responsive_ui/widgets/widgets.dart';
@@ -17,7 +18,7 @@ class _NavScreenState extends State<NavScreen> {  //toàn bộ 6 cái màn hình
     Scaffold(),
     Scaffold(),
     NotificationScreen(),
-    Scaffold(),
+    MenuScreen(),
   ];
   //dưới đây là footer
   final List<IconData> _icons = const [ //6 cái icon tương ứng với 6 cái màn hình của ứng dụng
